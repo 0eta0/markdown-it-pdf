@@ -32,7 +32,7 @@ md.use(require(markdown-it-pdf), {
 });
 ```
 
-If you add option "showUrl", The URL link will attach after PDF viewer.
+If you add option "showUrl", the URL link will attach after PDF viewer.
 
 ## Development
 
