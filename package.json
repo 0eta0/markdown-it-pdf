@@ -1,0 +1,38 @@
+{
+  "script": {
+    "test": "jest"
+  },
+  "name": "markdown-it-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "markdown-it": "^8.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0eta0/markdown-it-pdf.git"
+  },
+  "keywords": [
+    "markdown-it",
+    "markdown",
+    "pdf"
+  ],
+  "author": "Eita Yamaguchi <eta.develop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0eta0/markdown-it-pdf/issues"
+  },
+  "homepage": "https://github.com/0eta0/markdown-it-pdf#readme",
+  "description": ""
+}
