@@ -8,14 +8,14 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "babel-jest": "^24.9.0",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "babel-jest": "^26.6.3",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "jest": "^24.9.0",
-    "markdown-it": "^8.4.2"
+    "jest": "^26.6.3",
+    "markdown-it": "^12.0.4",
+    "npm-check-updates": "^11.1.9"
   },
   "scripts": {
     "test": "jest"
