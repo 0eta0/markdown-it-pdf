@@ -2,6 +2,9 @@
 
 PDF viewer for markdown-it
 
+NOTE:  
+THIS IS NOT PLUGIN TO CONVERT MARKDOWN TO PDF.
+
 
 ## Installation
 
