@@ -20,7 +20,7 @@ md.use(markdownItPdf);
 // You can also write like this.
 // md.use(require(markdown-it-pdf));
 const pdfUrl =
-  "https://raw.githubusercontent.com/0eta0/markdown-it-pdf/4103c6f583b5097cd3a429b8e67d7ffe882813f8/test.pdf";
+  "https://0eta0.github.io/markdown-it-pdf/test.pdf";
 
 md.render(`@[pdf](${pdfUrl})`);
 ```
