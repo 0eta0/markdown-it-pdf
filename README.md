@@ -1,12 +1,17 @@
-## markdown-it-pdf
+# markdown-it-pdf
 
 PDF viewer for markdown-it
+
+NOTE:  
+THIS IS NOT PLUGIN TO CONVERT MARKDOWN TO PDF.
+
 
 ## Installation
 
 ```
 npm install markdown-it-pdf
 ```
+
 
 ## Usage
 
@@ -20,10 +25,14 @@ md.use(markdownItPdf);
 // You can also write like this.
 // md.use(require(markdown-it-pdf));
 const pdfUrl =
-  "https://raw.githubusercontent.com/0eta0/markdown-it-pdf/4103c6f583b5097cd3a429b8e67d7ffe882813f8/test.pdf";
+  "https://0eta0.github.io/markdown-it-pdf/test.pdf";
 
 md.render(`@[pdf](${pdfUrl})`);
 ```
+
+### Result on the chrome
+
+!['Result'](./docs/result.png)
 
 ### Options
 ```js
@@ -33,6 +42,11 @@ md.use(require(markdown-it-pdf), {
 ```
 
 If you add option "showUrl", the URL link will attach after PDF viewer.
+
+### Result on the chrome
+
+!['Result'](./docs/result_with_url.png)
+
 
 ## Development
 
