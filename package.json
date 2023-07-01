@@ -9,7 +9,7 @@
     "test": "test"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
