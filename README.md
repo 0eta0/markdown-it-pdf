@@ -1,12 +1,14 @@
-## markdown-it-pdf
+# markdown-it-pdf
 
 PDF viewer for markdown-it
+
 
 ## Installation
 
 ```
 npm install markdown-it-pdf
 ```
+
 
 ## Usage
 
@@ -25,6 +27,10 @@ const pdfUrl =
 md.render(`@[pdf](${pdfUrl})`);
 ```
 
+### Result on the chrome
+
+!['Result'](./docs/result.png)
+
 ### Options
 ```js
 md.use(require(markdown-it-pdf), {
@@ -33,6 +39,11 @@ md.use(require(markdown-it-pdf), {
 ```
 
 If you add option "showUrl", the URL link will attach after PDF viewer.
+
+### Result on the chrome
+
+!['Result'](./docs/result_with_url.png)
+
 
 ## Development
 
