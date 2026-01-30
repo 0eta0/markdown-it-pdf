@@ -2,16 +2,16 @@ name: test-ci
 on:
   push:
     branches-ignore:
-      - 'master'
+      - "master"
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
-          node-version: '16.x'
+          node-version: "24.x"
       - name: install
-        run : npm ci
+        run: npm ci
       - name: test
-        run : npm test
+        run: npm test
