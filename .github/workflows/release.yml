@@ -2,7 +2,7 @@ name: release
 on:
   pull_request:
     branches:
-      - master
+      - main
     types: [closed]
 
 jobs:
@@ -14,6 +14,7 @@ jobs:
         with:
           node-version: "26.7"
           registry-url: "https://registry.npmjs.org"
+      - uses: flatt-security/setup-takumi-guard-npm@v1
       - name: is publish available
         run: npx can-npm-publish --verbose
       - name: install
