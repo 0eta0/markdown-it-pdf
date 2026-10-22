@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
-          node-version: "26.7"
+          node-version: "26.12"
           registry-url: "https://registry.npmjs.org"
       - uses: flatt-security/setup-takumi-guard-npm@v1
       - name: is publish available
