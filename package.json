@@ -12,12 +12,12 @@
     "registry": "https://registry.npmjs.org"
   },
   "devDependencies": {
-    "@babel/core": "^8.0.7",
-    "@babel/plugin-transform-modules-commonjs": "^8.0.1",
+    "@babel/core": "^8.1.2",
+    "@babel/plugin-transform-modules-commonjs": "^8.1.2",
     "@babel/preset-env": "^8.0.7",
     "babel-jest": "^30.5.2",
     "jest": "^30.5.2",
-    "markdown-it": "^15.0.2"
+    "markdown-it": "^15.0.3"
   },
   "scripts": {
     "test": "jest"
